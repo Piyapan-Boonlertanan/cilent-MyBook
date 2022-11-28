@@ -8,7 +8,7 @@ import {getUser} from "../../services/authorize";
 
 
 const SongTor=()=>{ 
-    const [Content,setContent]=useState(Data_Accordion); 
+    const [Content]=useState(Data_Accordion); 
     const user = String(getUser());
 
 return(
