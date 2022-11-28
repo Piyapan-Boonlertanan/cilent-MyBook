@@ -1,4 +1,4 @@
-import { HiOutlineHome,HiOutlineChatAlt } from "react-icons/hi";
+import { HiOutlineHome } from "react-icons/hi";
 import { TbShoppingCartDiscount } from "react-icons/tb";
 import { BiCategory} from "react-icons/bi";
 

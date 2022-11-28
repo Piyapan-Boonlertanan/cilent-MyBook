@@ -1,6 +1,6 @@
 import './style/Profile.css';
 import './style/Fav.css';
-import {Link,NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import axios from "axios";
 import {useState,useEffect} from "react";
 import Swal from "sweetalert2";

@@ -4,7 +4,6 @@ import {Link} from "react-router-dom";
 import axios from "axios";
 import Swal from "sweetalert2";
 import { authenticate,getUser } from "../../services/authorize";
-import {withRouter} from "react-router-dom";
 
 const SignIn=(props)=>{
     const [state,setState] = useState({

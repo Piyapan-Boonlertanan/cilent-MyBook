@@ -3,7 +3,7 @@ import { useState } from "react";
 import {Link,useHistory} from "react-router-dom";
 import axios from "axios";
 import Swal from "sweetalert2";
-import { getUser,getToken } from "../../services/authorize";
+import { getToken } from "../../services/authorize";
 
 const SignUp=()=>{
     const [state,setState] = useState({
