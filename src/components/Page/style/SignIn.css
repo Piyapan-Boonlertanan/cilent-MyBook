@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Taviraj&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family:"Noto Sans Thai", sans-serif ;
+}
+.container-Sign-In{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+    /* border: 2px solid red; */
+}
+.Sign-in-header{
+    display: block;
+    color: orange;
+    padding-top: 20px;   /* self-adding*/
+    text-align:center;
+    margin: 0 0 0 20px;
+    font-size: 2rem;
+}
+.container-form-sign-in{
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #fafafa; */
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+.form-Sign-In{
+     padding: 10px 100px;
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     flex-direction: column;
+     width: 500px;
+
+}
+.form-control-Sign-In{
+    position: relative;
+    margin-bottom: 2.5px;
+    padding-bottom:2px;
+    
+}
+.form-control-Sign-In label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-control-Sign-In input{
+    display: block;
+    margin-bottom: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:450px;
+    padding: 10px;
+    font-size: 14px;
+}
+.form-control-Sign-In input:focus{
+    outline:none;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    align-items: center;
+    /* border: 1px solid rgb(0, 255, 89); */
+}
+.sign-in-btn{
+    background: #000;
+    color: white;
+    cursor:pointer;
+    width:150px;
+    margin: 20px;
+    border: 2px solid #000;
+    display: block;
+    padding:10px;
+    font-size: 16px;
+}

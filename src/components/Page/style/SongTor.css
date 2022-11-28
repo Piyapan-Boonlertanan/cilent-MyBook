@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Taviraj&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: "Noto Sans Thai", sans-serif;
+}
+.container-sellbook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-welcome{
+    margin-top: 0.75rem;
+    font-size: 3rem;
+    color: orange;
+}
+/* accd */
+.accordion-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    min-height: 30rem;
+}
+.accordion-container-box{
+    width: 80rem;
+    margin: 0.75rem;
+    background: #fff;
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+}
+.accordion-container-box h1{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+/* banner middle */
+.banner-mid{
+    /* margin-top: 50px; */
+    width: 77rem;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.banner-mid-welcome{
+    font-size: 25px;
+    color:white;
+    padding: 50px;
+}
+.banner-mid-GetStart{
+    font-size: 17px;
+    color:white;
+    padding: 50px;
+}
+.banner-mid-GetStart a{
+    color:white;
+}

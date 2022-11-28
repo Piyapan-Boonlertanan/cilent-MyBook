@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Taviraj&display=swap");
+*{
+    font-family:"Noto Sans Thai", sans-serif ;
+}
+/* search things */
+
+.search-box{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 0px 10px 0px rgba(0,0,0,1);
+  -webkit-box-shadow: 1px 0px 10px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 1px 0px 10px 0px rgba(0,0,0,1);
+  padding: 1rem;
+  margin: 2rem;
+  width: 43rem;
+  background-image: url("../../../pic/search_book.jpg");
+}
+.search-box  input{
+  display: block;
+  margin-bottom: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width:450px;
+  padding: 10px;
+  font-size: 16px;
+}
+.search-element{
+  margin: 0.5rem;
+}
+.search-box p{
+  font-size: 20px;
+}
+/*  */
+.container-collection{
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-collection h1{
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+  box-shadow: 1px 0px 10px 0px rgba(0,0,0,1);
+  -webkit-box-shadow: 1px 0px 10px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 1px 0px 10px 0px rgba(0,0,0,1);
+  padding: 1rem;
+  margin: 2rem;
+}
+.pic-card{
+  margin: 15px;
+  padding: 15px;
+  width: 350px;
+  height: 400px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  
+}
+.form-control-collection{
+  display: flex;
+  margin: 0.9rem;
+}
+
+/* btn */
+#btn-collection{
+  margin: 1rem;
+}
+.form-control-collection label{
+  font-weight: bold;
+}
+.favorite-submit{
+  background: black;
+  color: white;
+  cursor:pointer;
+  width:150px;
+  margin: 20px;
+  border: 2px solid black;
+  display: block;
+  padding:10px;
+  font-size: 16px;
+}

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Taviraj&display=swap");
+*{
+    margin: 0; /* self-adding*/
+    padding: 0; /* self-adding*/
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family:"Noto Sans Thai", sans-serif ;
+}
+/* ImgPreview part */
+.photo-block-container{
+    margin: 15px;
+    padding: 15px;
+    width: 350px;
+    height: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.errorMsg{
+    color:red;
+    font-size: 20px;
+}
+.ImgPreview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.ImgPreview input[type="file"]{
+    display: none;
+
+}
+.ImgPreview .customFileUpload{
+    color:blue;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.btn-remove{
+    border: none;
+    border-radius: 4px;
+    opacity: 0.925;
+    padding: 2px;
+}
+/* normal part */
+.container-sellbook-post h1{
+    font-size: 30px;
+}
+.container-sellbook-post{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    flex-direction: column;
+    /* border:2px solid red; */
+}
+.post-sellbook-container{
+    padding: 15px;
+    margin: 2rem;
+    width:825px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    box-shadow: 1px 0px 10px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0,0,0,1);
+    /* border:2px solid red; */
+}
+.form-control-sellbook{
+    position: relative;
+    margin-bottom: 2.5px;
+    padding-bottom:2px;  
+}
+.form-control-sellbook label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-control-sellbook input{
+    display: block;
+    margin-bottom: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:450px;
+    padding: 10px;
+    font-size: 14px;
+}
+.form-control-sellbook input:focus{
+    outline:none;
+}
+.submit-btn{
+    background: green;
+    color: white;
+    cursor:pointer;
+    width:150px;
+    margin: 20px;
+    border: 2px solid green;
+    display: block;
+    padding:10px;
+    font-size: 16px;
+}
